@@ -7,8 +7,10 @@
     <title>Techie in a World of Advancing AI</title>
 </head>
 <body class="body">
+    <header id="header">
     <h1 id="title">Becoming a Techie in a World of Advancing AI</h1>
     <p id="description">Start Your Tech Journey: Learn How AI is Shaping the Future</p>
+    </header>
    <form id="survey-form" method="post" action="">
     <fieldset>
         <label for="name" id="name-label">Your Full Name: <input id="name" name="full-name" type="text" placeholder="Enter Your name" required /></label>
@@ -24,15 +26,21 @@
             <input id="experience" type="radio" name="experience" value="5" class="inline" checked /> Beginner
         <input id="experience" type="radio" name="experience" value="6" class="inline" /> Intermediate
         <input id="experience" type="radio" name="experience" value="7" class="inline" /> Advanced 
-    </label>
-        <label for="learning-style" class="learning">What is your preferred learning style?
-            <input type="checkbox" value="1" name="reading" id="learning-style" class="learn"> Reading
-            <input type="checkbox" value="2" name="watching" id="learning-style" class="learn"> Watching videos
-            <input type="checkbox" value="3" name="podcast" id="learning-style" class="learn"> Listening to podcasts
-            <input type="checkbox" value="4" name="projects" id="learning-style" class="learn"> Doing hands-on projects
         </label>
+    <div class="checkbox-container">
+        <label for="learning-style" class="learning">What is your preferred learning style?
+            <input type="checkbox" value="1" name="reading" id="learning">
+            <label for="learning">Reading</label> 
+            <input type="checkbox" value="2" name="watching" id="learning"> 
+            <label for="learning">Watching videos</label> 
+            <input type="checkbox" value="3" name="podcast" id="learning"> 
+            <label for="learning">Listening to podcasts</label>
+            <input type="checkbox" value="4" name="projects" id="learning">
+            <label for="learning">Doing hands-on projects</label>
+        </label>
+    </div>
         <textarea name="comments" id="comments" cols="30" rows="5" placeholder= "Others (please specify)......"></textarea>
-      </fieldset>
+    </fieldset>
       <input id="submit" type="submit" value="Submit" />
       </form> 
 </body>

@@ -1,14 +1,17 @@
+html {
+    background-color: #3b3b4f;
+    color: #bacccc;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.5;
     text-align: center;
-    color: solid gray;
+    color: solid black;
     margin: 0;
-    padding-top: 10%;
-    background: #b0aaaa;
-    ;
 }   
 
 #title {
@@ -18,11 +21,18 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     padding: 50px;
+    padding-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 .body {
-    background-color: #3b3b4f;
-    color: #bacccc;
-    padding: 50px;
+    background: #a6acaf;
+    background: -webkit-linear-gradient(to right, #797a62, #403B4A);
+    background: linear-gradient(to right, #65664a, #403B4A); 
+    color: black;
+    padding: 5px;
+    background-size: cover;
 }
 
 
@@ -33,8 +43,14 @@ label{
 
 fieldset {
     border: 20;
-    padding: 10rem 10;
-    border-bottom: 5px solid #3b3b4f;
+    border-radius: 25px;
+    border-color: 35px black;
+    background-color: #a6acaf;
+    padding: 50px;
+    margin: 175px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-top: 10px;
 }
 
 input, textarea, select {
@@ -58,10 +74,10 @@ input, textarea, select {
     vertical-align: middle;
 }
 
-.learning {
+/* .learning {
     display: inline-block;
     text-align: left;
-}
+} */
 
 
 .learn {
@@ -77,6 +93,7 @@ input, textarea {
     padding-left: 2px;
     padding-bottom: 10px;
     padding-right: 0;
+    text-align: center;
 }
 
 input[type="submit"] {
@@ -101,3 +118,33 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
+
+ header {
+    background-image: linear-gradient( 135deg, #3a272641 10%, #3609408c 100%);
+    border: #0a0a23;
+    border-radius: 50px;
+ }
+    
+
+#description {
+    padding-top: 0;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+
+#comments {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .checkbox-container label {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 5px; 
+  }
